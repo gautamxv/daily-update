@@ -6,7 +6,7 @@ C:\Users\gk896\OneDrive\Desktop\dailyyy\daily-update\daily_update.bat || exit
 # Check for changes
 if [ -n "$(git status --porcelain)" ]; then
   # Add changes to git
-  git add .
+  git add .\daily_update.bat
 
   # Commit changes
   git commit -m "Daily update: $(date +'%Y-%m-%d %H:%M:%S')"
