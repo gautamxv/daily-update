@@ -10,7 +10,7 @@ if [ -n "$(git status --porcelain)" ]; then
 
   # Commit changes
   git commit -m "Daily update: $(date +'%Y-%m-%d %H:%M:%S')"
-
+git gitdv
   # Push changes to GitHub
   git push origin main  # Change 'main' to your branch name if different
 else
